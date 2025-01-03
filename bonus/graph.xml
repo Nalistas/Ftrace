@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<graph>
+<node name="func_0xffffffff933f8040@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff9340cd80@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933faaa0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_audit_objopen" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__GI___pread64_nocancel" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff9340cb90@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="get_common_indices.constprop.0" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff933fa870@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff9340df50@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__GI___open_nocancel" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="bcmp" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_check_map_versions" max_depth="8" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0@./a.out"/>
+<child name="strncmp"/>
+<child name="func_0@./a.out"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="strcmp"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+</node>
+<node name="_dl_debug_update" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_allocate_tls_storage" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="allocate_dtv"/>
+<child name="func_0@./a.out"/>
+</node>
+<node name="_IO_cleanup" max_depth="6" file="/usr/lib64/libc.so.6">
+<child name="__libc_cleanup_pop_restore"/>
+<child name="__libc_cleanup_push_defer"/>
+<child name="_IO_flush_all_lockp"/>
+</node>
+<node name="memmove" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_map_object_deps" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_sort_maps"/>
+<child name="memmove"/>
+<child name="func_0@./a.out"/>
+<child name="memmove"/>
+<child name="memmove"/>
+<child name="func_0@./a.out"/>
+<child name="__GI__dl_catch_exception"/>
+<child name="_dl_dst_count"/>
+<child name="__libc_scratch_buffer_set_array_size"/>
+<child name="__GI__dl_catch_exception"/>
+<child name="_dl_dst_count"/>
+</node>
+<node name="func_0xffffffff9340c270@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f73f0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_start" max_depth="2" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_sysdep_start"/>
+<child name="_dl_setup_hash"/>
+<child name="__rtld_malloc_init_stubs"/>
+</node>
+<node name="func_0xffffffff9340c540@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff9356ad20@./a.out" max_depth="4" file="./a.out">
+<child name="_dl_unload_cache"/>
+<child name="__GI__dl_debug_state"/>
+<child name="_dl_debug_update"/>
+<child name="_dl_audit_activity_nsid"/>
+<child name="_dl_sysdep_start_cleanup"/>
+<child name="_dl_call_libc_early_init"/>
+<child name="_dl_relocate_object"/>
+<child name="__rtld_mutex_init"/>
+<child name="__rtld_malloc_init_real"/>
+<child name="_dl_find_object_init"/>
+<child name="__GI__dl_allocate_tls_init"/>
+<child name="_dl_relocate_object"/>
+<child name="_dl_add_to_slotinfo"/>
+<child name="_dl_relocate_object"/>
+<child name="_dl_relocate_object"/>
+<child name="_dl_cet_check"/>
+<child name="init_tls"/>
+<child name="_dl_receive_error"/>
+<child name="_dl_map_object_deps"/>
+<child name="_dl_audit_objopen"/>
+<child name="access"/>
+<child name="_dl_audit_activity_map"/>
+<child name="__GI__dl_debug_state"/>
+<child name="_dl_count_modids"/>
+<child name="_dl_debug_initialize"/>
+<child name="_dl_init_paths"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="_dl_add_to_namespace_list"/>
+<child name="_dl_setup_hash"/>
+<child name="_dl_new_object"/>
+<child name="_dl_setup_hash"/>
+<child name="strcmp"/>
+<child name="_dl_process_pt_gnu_property"/>
+<child name="_dl_add_to_namespace_list"/>
+<child name="_dl_new_object"/>
+<child name="_dl_next_ld_env_entry"/>
+<child name="__tls_pre_init_tp"/>
+</node>
+<node name="allocate_dtv" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0@./a.out"/>
+</node>
+<node name="hello2" max_depth="6" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+<child name="hello3"/>
+</node>
+<node name="hello3" max_depth="7" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+<child name="hello"/>
+<child name="hello"/>
+</node>
+<node name="hello4" max_depth="5" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+<child name="hello3"/>
+<child name="hello2"/>
+</node>
+<node name="func_0xffffffff9340ccb0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="init_tls" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__tls_init_tp"/>
+<child name="_dl_allocate_tls_storage"/>
+<child name="_dl_determine_tlsoffset"/>
+<child name="_dl_tls_static_surplus_init"/>
+<child name="func_0@./a.out"/>
+</node>
+<node name="__libc_cleanup_pop_restore" max_depth="8" file="/usr/lib64/libc.so.6">
+</node>
+<node name="strncmp" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dlfo_process_initial" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_find_object_from_map"/>
+<child name="_dl_find_object_from_map"/>
+<child name="_dl_find_object_from_map"/>
+</node>
+<node name="_dl_check_all_versions" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_check_map_versions"/>
+<child name="_dl_check_map_versions"/>
+<child name="_dl_check_map_versions"/>
+<child name="_dl_check_map_versions"/>
+</node>
+<node name="func_0xffffffff93527c98@./a.out" max_depth="4" file="./a.out">
+</node>
+<node name="__GI__exit" max_depth="6" file="/usr/lib64/libc.so.6">
+</node>
+<node name="func_0xffffffff933f8170@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_process_pt_gnu_property" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_cet_check" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff9340c700@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="memset" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="strcmp" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_init" max_depth="3" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+</node>
+<node name="_dl_sysdep_read_whole_file" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__GI___close_nocancel"/>
+<child name="__mmap"/>
+<child name="__GI___fstat64"/>
+<child name="__GI___open_nocancel"/>
+</node>
+<node name="__frame_dummy_init_array_entry" max_depth="3" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+</node>
+<node name="open_verify.constprop.0" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__GI___pread64_nocancel"/>
+<child name="__read_nocancel"/>
+<child name="__GI___open_nocancel"/>
+</node>
+<node name="mempcpy" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__GI__dl_catch_exception" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0xffffffff935508a0@./a.out"/>
+<child name="__sigsetjmp"/>
+<child name="func_0xffffffff935508a0@./a.out"/>
+<child name="__sigsetjmp"/>
+</node>
+<node name="update_active.constprop.0" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff933facb0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_receive_error" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0xffffffff9356a2f0@./a.out"/>
+</node>
+<node name="_dl_lookup_symbol_x" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+</node>
+<node name="__getrlimit64" max_depth="6" file="/usr/lib64/libc.so.6">
+</node>
+<node name="_dl_debug_initialize" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="lookup_malloc_symbol" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+</node>
+<node name="__libc_scratch_buffer_set_array_size" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_init" max_depth="2" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="call_init"/>
+<child name="call_init"/>
+<child name="call_init"/>
+</node>
+<node name="munmap" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_find_object_from_map" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff9340cc10@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__GI__setjmp" max_depth="4" file="/usr/lib64/libc.so.6">
+</node>
+<node name="__tls_init_tp" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__GI___tunable_get_val"/>
+</node>
+<node name="_dl_audit_activity_map" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="check_match" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+</node>
+<node name="_dl_determine_tlsoffset" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_map_object" max_depth="8" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_map_object_from_fd"/>
+<child name="open_verify.constprop.0"/>
+<child name="_dl_load_cache_lookup"/>
+<child name="cache_rpath"/>
+<child name="cache_rpath"/>
+<child name="cache_rpath"/>
+<child name="strlen"/>
+<child name="index"/>
+<child name="strcmp"/>
+<child name="_dl_name_match_p"/>
+<child name="strcmp"/>
+<child name="_dl_name_match_p"/>
+<child name="_dl_name_match_p"/>
+</node>
+<node name="__GI___call_tls_dtors" max_depth="6" file="/usr/lib64/libc.so.6">
+</node>
+<node name="func_0xffffffff93565a00@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__read_nocancel" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_sort_maps" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="memmove"/>
+<child name="dfs_traversal.part.0"/>
+<child name="dfs_traversal.part.0"/>
+<child name="dfs_traversal.part.0"/>
+<child name="dfs_traversal.part.0"/>
+<child name="memmove"/>
+<child name="dfs_traversal.part.0"/>
+<child name="dfs_traversal.part.0"/>
+<child name="dfs_traversal.part.0"/>
+</node>
+<node name="main" max_depth="4" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+<child name="hello4"/>
+</node>
+<node name="func_0xffffffff9340c5d0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_relocate_object" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_protect_relro"/>
+<child name="func_0xffffffff93565a00@./a.out"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_protect_relro"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_protect_relro"/>
+<child name="func_0xffffffff933fabf0@./a.out"/>
+<child name="func_0xffffffff933f8040@./a.out"/>
+<child name="func_0xffffffff933fa900@./a.out"/>
+<child name="func_0xffffffff933f7da0@./a.out"/>
+<child name="func_0xffffffff9340ccb0@./a.out"/>
+<child name="func_0xffffffff9340cd80@./a.out"/>
+<child name="func_0xffffffff933fae80@./a.out"/>
+<child name="func_0xffffffff933f7370@./a.out"/>
+<child name="func_0xffffffff933f7c80@./a.out"/>
+<child name="func_0xffffffff9340cb90@./a.out"/>
+<child name="func_0xffffffff933f8100@./a.out"/>
+<child name="func_0xffffffff9340cc10@./a.out"/>
+<child name="func_0xffffffff933fab40@./a.out"/>
+<child name="func_0xffffffff933fa870@./a.out"/>
+<child name="func_0xffffffff9340c450@./a.out"/>
+<child name="func_0xffffffff933f8270@./a.out"/>
+<child name="func_0xffffffff933f9f50@./a.out"/>
+<child name="func_0xffffffff9340c4b0@./a.out"/>
+<child name="func_0xffffffff933f8dc0@./a.out"/>
+<child name="func_0xffffffff933f7ec0@./a.out"/>
+<child name="func_0xffffffff9340ccb0@./a.out"/>
+<child name="func_0xffffffff933f73f0@./a.out"/>
+<child name="func_0xffffffff933fa9a0@./a.out"/>
+<child name="func_0xffffffff933f8cd0@./a.out"/>
+<child name="func_0xffffffff9340c5d0@./a.out"/>
+<child name="func_0xffffffff933f9fc0@./a.out"/>
+<child name="func_0xffffffff933f81d0@./a.out"/>
+<child name="func_0xffffffff933faaa0@./a.out"/>
+<child name="func_0xffffffff9340cb90@./a.out"/>
+<child name="func_0xffffffff933f8170@./a.out"/>
+<child name="func_0xffffffff9340c540@./a.out"/>
+<child name="func_0xffffffff933facb0@./a.out"/>
+<child name="func_0xffffffff933f8d40@./a.out"/>
+<child name="func_0xffffffff9340c4b0@./a.out"/>
+<child name="func_0xffffffff933f74e0@./a.out"/>
+<child name="func_0xffffffff9340c870@./a.out"/>
+<child name="func_0xffffffff9340c700@./a.out"/>
+<child name="func_0xffffffff933f7f50@./a.out"/>
+<child name="func_0xffffffff9340df50@./a.out"/>
+<child name="func_0xffffffff933f8e50@./a.out"/>
+<child name="func_0xffffffff933fac80@./a.out"/>
+<child name="func_0xffffffff933fabf0@./a.out"/>
+<child name="func_0xffffffff9340c270@./a.out"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+<child name="_dl_lookup_symbol_x"/>
+</node>
+<node name="_dl_hwcaps_split" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="strlen"/>
+<child name="index"/>
+<child name="index"/>
+<child name="index"/>
+<child name="strlen"/>
+<child name="index"/>
+<child name="index"/>
+<child name="index"/>
+<child name="strlen"/>
+<child name="index"/>
+<child name="index"/>
+<child name="index"/>
+</node>
+<node name="access" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_count_modids" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_map_object_from_fd" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_audit_objopen"/>
+<child name="_dl_add_to_namespace_list"/>
+<child name="_dl_assign_tls_modid"/>
+<child name="strcmp"/>
+<child name="_dl_setup_hash"/>
+<child name="__GI___close_nocancel"/>
+<child name="_dl_process_pt_gnu_property"/>
+<child name="__mmap"/>
+<child name="memset"/>
+<child name="__mmap"/>
+<child name="__mmap"/>
+<child name="__mmap"/>
+<child name="__mmap"/>
+<child name="__GI___pread64_nocancel"/>
+<child name="_dl_new_object"/>
+<child name="__GI___fstat64"/>
+<child name="_dl_debug_update"/>
+</node>
+<node name="index" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff933fae80@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__mprotect" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff93527c90@./a.out" max_depth="4" file="./a.out">
+<child name="func_0x7fde9337d640@/usr/lib64/libc.so.6"/>
+</node>
+<node name="func_0xffffffff933f9fc0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__sigsetjmp" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff9340c450@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f9f50@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__strdup" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0@./a.out"/>
+<child name="strlen"/>
+</node>
+<node name="_dl_init_paths" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="memset"/>
+<child name="memset"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="_dl_important_hwcaps"/>
+</node>
+<node name="__run_exit_handlers" max_depth="5" file="/usr/lib64/libc.so.6">
+<child name="__GI__exit"/>
+<child name="_IO_cleanup"/>
+<child name="func_0xffffffff93552e90@./a.out"/>
+<child name="__GI___call_tls_dtors"/>
+</node>
+<node name="__do_global_dtors_aux_fini_array_entry" max_depth="8" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+<child name="deregister_tm_clones"/>
+</node>
+<node name="func_0xffffffff933fabf0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__GI___tunables_init" max_depth="4" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__rtld_mutex_init" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_lookup_direct"/>
+<child name="_dl_lookup_direct"/>
+</node>
+<node name="func_0xffffffff933f7ec0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f7370@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__libc_cleanup_push_defer" max_depth="8" file="/usr/lib64/libc.so.6">
+</node>
+<node name="func_0xffffffff933f8dc0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f8270@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="execve" max_depth="1" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/ftrace">
+<child name="func_0@./a.out"/>
+<child name="_dl_init"/>
+<child name="_dl_start"/>
+<child name="_dl_fixup"/>
+</node>
+<node name="_IO_flush_all_lockp" max_depth="7" file="/usr/lib64/libc.so.6">
+<child name="__libc_cleanup_pop_restore"/>
+<child name="__libc_cleanup_push_defer"/>
+</node>
+<node name="__libc_start_call_main" max_depth="3" file="/usr/lib64/libc.so.6">
+<child name="__GI_exit"/>
+<child name="main"/>
+<child name="__GI__setjmp"/>
+</node>
+<node name="_dl_sort_maps_init" max_depth="4" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__GI___tunable_get_val"/>
+</node>
+<node name="func_0xffffffff933f81d0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="do_lookup_x" max_depth="8" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+</node>
+<node name="__rtld_malloc_init_stubs" max_depth="3" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_audit_activity_nsid" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff9356a2f0@./a.out" max_depth="6" file="./a.out">
+<child name="_dl_check_all_versions"/>
+</node>
+<node name="_dl_hwcaps_subdirs_active" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0x7fde9337d640@/usr/lib64/libc.so.6" max_depth="5" file="/usr/lib64/libc.so.6">
+</node>
+<node name="__GI___close_nocancel" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_hwcaps_contains" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_hwcaps_split_masked" max_depth="8" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_contains"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_contains"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_contains"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_contains"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_contains"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_contains"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+<child name="_dl_hwcaps_split"/>
+</node>
+<node name="__GI___tunable_get_val" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_sysdep_start" max_depth="3" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0xffffffff9356ad20@./a.out"/>
+<child name="sbrk"/>
+<child name="strlen"/>
+<child name="_dl_x86_init_cpu_features"/>
+<child name="__brk"/>
+<child name="_dl_sort_maps_init"/>
+<child name="__GI___tunables_init"/>
+<child name="_dl_sysdep_parse_arguments"/>
+</node>
+<node name="_dl_lookup_direct" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="check_match"/>
+<child name="check_match"/>
+<child name="check_match"/>
+</node>
+<node name="call_init" max_depth="3" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0xffffffff93527c98@./a.out"/>
+<child name="func_0xffffffff93527c90@./a.out"/>
+</node>
+<node name="_dlfo_sort_mappings" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__GI__dl_allocate_tls_init" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0@./a.out"/>
+<child name="memset"/>
+<child name="mempcpy"/>
+<child name="func_0@./a.out"/>
+</node>
+<node name="_dl_setup_hash" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_protect_relro" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__mprotect"/>
+<child name="__mprotect"/>
+<child name="__mprotect"/>
+</node>
+<node name="_dl_call_fini" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__do_global_dtors_aux_fini_array_entry"/>
+</node>
+<node name="_dl_unload_cache" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="munmap"/>
+</node>
+<node name="_dl_dst_count" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="index"/>
+<child name="index"/>
+</node>
+<node name="func_0xffffffff935508a0@./a.out" max_depth="7" file="./a.out">
+<child name="_dl_map_object"/>
+<child name="_dl_map_object"/>
+</node>
+<node name="_dl_new_object" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="mempcpy"/>
+<child name="func_0@./a.out"/>
+<child name="strlen"/>
+<child name="memmove"/>
+<child name="func_0@./a.out"/>
+<child name="strlen"/>
+<child name="memmove"/>
+<child name="func_0@./a.out"/>
+<child name="strlen"/>
+<child name="memmove"/>
+<child name="func_0@./a.out"/>
+</node>
+<node name="__GI_exit" max_depth="4" file="/usr/lib64/libc.so.6">
+<child name="__run_exit_handlers"/>
+</node>
+<node name="_dl_sysdep_parse_arguments" max_depth="4" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0x7fde9337d750@/usr/lib64/libc.so.6" max_depth="3" file="/usr/lib64/libc.so.6">
+</node>
+<node name="_dl_add_to_slotinfo" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0@./a.out" max_depth="11" file="./a.out">
+<child name="__libc_start_call_main"/>
+<child name="func_0x7fde9337d750@/usr/lib64/libc.so.6"/>
+<child name="__frame_dummy_init_array_entry"/>
+<child name="_init"/>
+<child name="__GI___cxa_atexit"/>
+<child name="__mmap"/>
+<child name="__mmap"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+<child name="do_lookup_x"/>
+</node>
+<node name="__mmap" max_depth="12" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_next_ld_env_entry" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__pthread_tunables_init" max_depth="6" file="/usr/lib64/libc.so.6">
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+</node>
+<node name="get_common_cache_info.constprop.0" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_add_to_namespace_list" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+<child name="func_0@./a.out"/>
+</node>
+<node name="deregister_tm_clones" max_depth="9" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+</node>
+<node name="_dl_tls_static_surplus_init" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+</node>
+<node name="_dl_cache_libcmp" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6" max_depth="7" file="/usr/lib64/libc.so.6">
+</node>
+<node name="__GI___fstat64" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff933f74e0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_fixup" max_depth="2" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_lookup_symbol_x"/>
+</node>
+<node name="_dl_find_object_init" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dlfo_sort_mappings"/>
+<child name="_dlfo_process_initial"/>
+<child name="func_0@./a.out"/>
+<child name="_dlfo_process_initial"/>
+<child name="_dl_find_object_from_map"/>
+</node>
+<node name="func_0xffffffff933f8100@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933fa9a0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff9340c4b0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f7c80@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933fac80@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="sbrk" max_depth="4" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_x86_init_cpu_features" max_depth="4" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_set_val"/>
+<child name="__GI___tunable_set_val"/>
+<child name="__GI___tunable_set_val"/>
+<child name="__GI___tunable_set_val"/>
+<child name="__GI___tunable_set_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="__GI___tunable_get_val"/>
+<child name="get_common_cache_info.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="handle_intel.constprop.0"/>
+<child name="update_active.constprop.0"/>
+<child name="get_common_indices.constprop.0"/>
+</node>
+<node name="copy_hwcaps" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_hwcaps_split_masked"/>
+<child name="mempcpy"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="mempcpy"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split_masked"/>
+</node>
+<node name="__GI___cxa_atexit" max_depth="3" file="/usr/lib64/libc.so.6">
+<child name="__new_exitfn"/>
+</node>
+<node name="func_0xffffffff933f8cd0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f7f50@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f8e50@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff93552e90@./a.out" max_depth="6" file="./a.out">
+<child name="_dl_audit_activity_nsid"/>
+<child name="_dl_audit_objclose"/>
+<child name="_dl_call_fini"/>
+<child name="_dl_audit_objclose"/>
+<child name="_dl_call_fini"/>
+<child name="_dl_audit_objclose"/>
+<child name="_dl_call_fini"/>
+<child name="func_0@./a.out"/>
+<child name="_dl_sort_maps"/>
+<child name="_dl_audit_activity_nsid"/>
+<child name="func_0@./a.out"/>
+</node>
+<node name="__brk" max_depth="4" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_audit_objclose" max_depth="7" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="handle_intel.constprop.0" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+<child name="intel_check_word.constprop.0"/>
+</node>
+<node name="__tls_pre_init_tp" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="_dl_sysdep_start_cleanup" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__new_exitfn" max_depth="4" file="/usr/lib64/libc.so.6">
+</node>
+<node name="_dl_call_libc_early_init" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+<child name="func_0x7fde9337d6b0@/usr/lib64/libc.so.6"/>
+<child name="__pthread_tunables_init"/>
+<child name="__getrlimit64"/>
+<child name="__GI___ctype_init"/>
+<child name="_dl_lookup_direct"/>
+</node>
+<node name="func_0xffffffff933f8d40@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_important_hwcaps" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="copy_hwcaps"/>
+<child name="copy_hwcaps"/>
+<child name="func_0@./a.out"/>
+<child name="bcmp"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split"/>
+<child name="func_0@./a.out"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_split_masked"/>
+<child name="_dl_hwcaps_subdirs_active"/>
+</node>
+<node name="hello" max_depth="8" file="/home/solype/delivery/old_days/tek2/unix_prog/ftrace/bonus/a.out">
+</node>
+<node name="_dl_name_match_p" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+<child name="strcmp"/>
+</node>
+<node name="func_0xffffffff933fa900@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff9340c870@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="func_0xffffffff933f7da0@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="__rtld_malloc_init_real" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="lookup_malloc_symbol"/>
+<child name="lookup_malloc_symbol"/>
+<child name="lookup_malloc_symbol"/>
+<child name="lookup_malloc_symbol"/>
+</node>
+<node name="__GI__dl_debug_state" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__GI___ctype_init" max_depth="6" file="/usr/lib64/libc.so.6">
+</node>
+<node name="strlen" max_depth="11" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="intel_check_word.constprop.0" max_depth="6" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="func_0xffffffff933fab40@./a.out" max_depth="6" file="./a.out">
+</node>
+<node name="_dl_assign_tls_modid" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="__GI___tunable_set_val" max_depth="5" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="cache_rpath" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="dfs_traversal.part.0" max_depth="8" file="/usr/lib64/ld-linux-x86-64.so.2">
+</node>
+<node name="search_cache" max_depth="10" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="_dl_cache_libcmp"/>
+<child name="_dl_cache_libcmp"/>
+<child name="_dl_cache_libcmp"/>
+<child name="_dl_cache_libcmp"/>
+<child name="_dl_cache_libcmp"/>
+<child name="_dl_cache_libcmp"/>
+<child name="_dl_cache_libcmp"/>
+<child name="__GI___tunable_get_val"/>
+<child name="strcmp"/>
+</node>
+<node name="_dl_load_cache_lookup" max_depth="9" file="/usr/lib64/ld-linux-x86-64.so.2">
+<child name="__strdup"/>
+<child name="memmove"/>
+<child name="strlen"/>
+<child name="search_cache"/>
+<child name="_dl_sysdep_read_whole_file"/>
+</node>
+</graph>

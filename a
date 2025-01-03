@@ -1,0 +1,764 @@
+Entering function _dl_start at 0x7fb6e16414b0
+    Entering function __rtld_malloc_init_stubs at 0x7fb6e163ef90
+    Leaving function __rtld_malloc_init_stubs
+    Entering function _dl_setup_hash at 0x7fb6e1636400
+    Leaving function _dl_setup_hash
+    Entering function _dl_sysdep_start at 0x7fb6e16401a0
+    Entering function _dl_sysdep_parse_arguments at 0x7fb6e163f5a0
+    Leaving function _dl_sysdep_parse_arguments
+    Entering function __GI___tunables_init at 0x7fb6e1639a10
+    Leaving function __GI___tunables_init
+    Entering function _dl_sort_maps_init at 0x7fb6e16365b0
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Leaving function _dl_sort_maps_init
+    Entering function __brk at 0x7fb6e1645a20
+    Syscall brk(0x0)  = 0x12b9000
+    Leaving function __brk
+    Entering function _dl_x86_init_cpu_features at 0x7fb6e163ca30
+    Entering function get_common_indices.constprop.0 at 0x7fb6e163aa30
+    Leaving function get_common_indices.constprop.0
+    Entering function update_active.constprop.0 at 0x7fb6e163b3b0
+    Leaving function update_active.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function handle_intel.constprop.0 at 0x7fb6e163b2a0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Entering function intel_check_word.constprop.0 at 0x7fb6e163b010
+    Leaving function intel_check_word.constprop.0
+    Leaving function handle_intel.constprop.0
+    Entering function get_common_cache_info.constprop.0 at 0x7fb6e163abd0
+    Leaving function get_common_cache_info.constprop.0
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_set_val at 0x7fb6e16399e0
+    Leaving function __GI___tunable_set_val
+    Entering function __GI___tunable_set_val at 0x7fb6e16399e0
+    Leaving function __GI___tunable_set_val
+    Entering function __GI___tunable_set_val at 0x7fb6e16399e0
+    Leaving function __GI___tunable_set_val
+    Entering function __GI___tunable_set_val at 0x7fb6e16399e0
+    Leaving function __GI___tunable_set_val
+    Entering function __GI___tunable_set_val at 0x7fb6e16399e0
+    Leaving function __GI___tunable_set_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Syscall arch_prctl(0x3001, 0x7fffffb03cb0)  = 0xffffffffffffffea
+    Leaving function _dl_x86_init_cpu_features
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function sbrk at 0x7fb6e1645a50
+    Leaving function sbrk
+    Entering function func_0xffffffffe1641d20@./binaries/1 at 0xffffffffe1641d20
+    Entering function __tls_pre_init_tp at 0x7fb6e1637dd0
+    Leaving function __tls_pre_init_tp
+    Entering function _dl_next_ld_env_entry at 0x7fb6e163e7f0
+    Leaving function _dl_next_ld_env_entry
+    Entering function _dl_new_object at 0x7fb6e16308b0
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Leaving function _dl_new_object
+    Entering function _dl_add_to_namespace_list at 0x7fb6e1630800
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    unknown call 0x4c90000281b125ff
+    Leaving function _dl_add_to_namespace_list
+    Entering function _dl_process_pt_gnu_property at 0x7fb6e162bf80
+    Leaving function _dl_process_pt_gnu_property
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function _dl_setup_hash at 0x7fb6e1636400
+    Leaving function _dl_setup_hash
+    Entering function _dl_new_object at 0x7fb6e16308b0
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Leaving function _dl_new_object
+    Entering function _dl_setup_hash at 0x7fb6e1636400
+    Leaving function _dl_setup_hash
+    Entering function _dl_add_to_namespace_list at 0x7fb6e1630800
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    unknown call 0x4c90000281b125ff
+    Leaving function _dl_add_to_namespace_list
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function func_0@./binaries/1
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function func_0@./binaries/1
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function func_0@./binaries/1
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function func_0@./binaries/1
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function func_0@./binaries/1
+    Entering function _dl_init_paths at 0x7fb6e162bb70
+    Entering function _dl_important_hwcaps at 0x7fb6e163e970
+    Entering function _dl_hwcaps_subdirs_active at 0x7fb6e163ed10
+    Leaving function _dl_hwcaps_subdirs_active
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Leaving function _dl_hwcaps_split
+    Leaving function _dl_hwcaps_split_masked
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_contains at 0x7fb6e163ee70
+    Leaving function _dl_hwcaps_contains
+    Leaving function _dl_hwcaps_split_masked
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Leaving function _dl_hwcaps_split
+    Leaving function _dl_hwcaps_split_masked
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_contains at 0x7fb6e163ee70
+    Leaving function _dl_hwcaps_contains
+    Leaving function _dl_hwcaps_split_masked
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Leaving function _dl_hwcaps_split
+    Leaving function _dl_hwcaps_split_masked
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function copy_hwcaps at 0x7fb6e163e8d0
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Leaving function _dl_hwcaps_split
+    Leaving function _dl_hwcaps_split_masked
+    Leaving function copy_hwcaps
+    Entering function copy_hwcaps at 0x7fb6e163e8d0
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Leaving function _dl_hwcaps_split
+    Entering function _dl_hwcaps_contains at 0x7fb6e163ee70
+    Leaving function _dl_hwcaps_contains
+    Leaving function _dl_hwcaps_split_masked
+    Entering function mempcpy at 0x7fb6e1647750
+    Leaving function mempcpy
+    Entering function _dl_hwcaps_split_masked at 0x7fb6e163ef30
+    Entering function _dl_hwcaps_split at 0x7fb6e163edd0
+    Leaving function _dl_hwcaps_split
+    Leaving function _dl_hwcaps_split_masked
+    Leaving function copy_hwcaps
+    Leaving function _dl_important_hwcaps
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function memset at 0x7fb6e1647950
+    Leaving function memset
+    Entering function memset at 0x7fb6e1647950
+    Leaving function memset
+    Leaving function _dl_init_paths
+    Entering function _dl_debug_initialize at 0x7fb6e1627730
+    Leaving function _dl_debug_initialize
+    Entering function _dl_count_modids at 0x7fb6e1637180
+    Leaving function _dl_count_modids
+    Entering function __GI__dl_debug_state at 0x7fb6e16276d0
+    Leaving function __GI__dl_debug_state
+    Entering function _dl_audit_activity_map at 0x7fb6e163cf00
+    Leaving function _dl_audit_activity_map
+    Entering function access at 0x7fb6e1646950
+    Syscall access(0x7fb6e16501b0, 0x4)  = 0xfffffffffffffffe
+    Leaving function access
+    Entering function _dl_audit_objopen at 0x7fb6e163d080
+    Leaving function _dl_audit_objopen
+    Entering function _dl_map_object_deps at 0x7fb6e16278f0
+    Entering function _dl_dst_count at 0x7fb6e162b330
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_dst_count
+    Entering function __GI__dl_catch_exception at 0x7fb6e1626480
+    Entering function __sigsetjmp at 0x7fb6e1646e80
+    Leaving function __sigsetjmp
+    Entering function func_0xffffffffe16278a0@./binaries/1 at 0xffffffffe16278a0
+    Entering function _dl_map_object at 0x7fb6e162d910
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function cache_rpath at 0x7fb6e162bb00
+    Leaving function cache_rpath
+    Entering function cache_rpath at 0x7fb6e162bb00
+    Leaving function cache_rpath
+    Entering function cache_rpath at 0x7fb6e162bb00
+    Leaving function cache_rpath
+    Entering function _dl_load_cache_lookup at 0x7fb6e1639510
+    Entering function _dl_sysdep_read_whole_file at 0x7fb6e1630530
+    Entering function __GI___open_nocancel at 0x7fb6e1646aa0
+    Syscall openat(0xffffff9c, 0x7fb6e164f010, 0x80000)  = 0x3
+    Leaving function __GI___open_nocancel
+    Entering function __GI___fstat64 at 0x7fb6e1646840
+    Syscall newfstatat(0x3, 0x7fb6e164fbd9, 0x7fffffb02ec0, 0x1000, 0x0, 0x400459)  = 0x0
+    Leaving function __GI___fstat64
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x0, 0xb3db, 0x1, 0x2, 0x3, 0x0)  = 0x7fb6e1619000
+    Leaving function __mmap
+    Entering function __GI___close_nocancel at 0x7fb6e1646980
+    Syscall close(0x3)  = 0x0
+    Leaving function __GI___close_nocancel
+    Leaving function _dl_sysdep_read_whole_file
+    Entering function search_cache at 0x7fb6e1638d80
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Entering function _dl_cache_libcmp at 0x7fb6e1638cb0
+    Leaving function _dl_cache_libcmp
+    Leaving function search_cache
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Entering function __strdup at 0x7fb6e1649af0
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Leaving function __strdup
+    Leaving function _dl_load_cache_lookup
+    Entering function open_verify.constprop.0 at 0x7fb6e162a690
+    Entering function __GI___open_nocancel at 0x7fb6e1646aa0
+    Syscall openat(0xffffff9c, 0x7fb6e165af70, 0x80000)  = 0x3
+    Leaving function __GI___open_nocancel
+    Entering function __read_nocancel at 0x7fb6e1646b10
+    Syscall read(0x3, 0x7fffffb03028, 0x340)  = 0x340
+    Leaving function __read_nocancel
+    Entering function __GI___pread64_nocancel at 0x7fb6e1646b40
+    Syscall pread64(0x3, 0x7fffffb02c40, 0x310, 0x40, 0x7fffffb03007, 0x0)  = 0x310
+    Leaving function __GI___pread64_nocancel
+    Leaving function open_verify.constprop.0
+    Entering function _dl_map_object_from_fd at 0x7fb6e162bff0
+    Entering function _dl_debug_update at 0x7fb6e16276e0
+    Leaving function _dl_debug_update
+    Entering function __GI___fstat64 at 0x7fb6e1646840
+    Syscall newfstatat(0x3, 0x7fb6e164fbd9, 0x7fffffb02ec0, 0x1000, 0x7fb6e165af70, 0x7fb6e165a2c0)  = 0x0
+    Leaving function __GI___fstat64
+    Entering function _dl_new_object at 0x7fb6e16308b0
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x0, 0x2000, 0x3, 0x22, 0xffffffff, 0x0)  = 0x7fb6e1617000
+    Leaving function __mmap
+    Leaving function func_0@./binaries/1
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Entering function strlen at 0x7fb6e1649b50
+    Leaving function strlen
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function mempcpy at 0x7fb6e1647750
+    Leaving function mempcpy
+    Leaving function _dl_new_object
+    Entering function __GI___pread64_nocancel at 0x7fb6e1646b40
+    Syscall pread64(0x3, 0x7fffffb02b10, 0x310, 0x40, 0xffff, 0x0)  = 0x310
+    Leaving function __GI___pread64_nocancel
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x0, 0x1ddd30, 0x1, 0x802, 0x3, 0x0)  = 0x7fb6e1439000
+    Leaving function __mmap
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x7fb6e145f000, 0x15d000, 0x5, 0x812, 0x3, 0x26000)  = 0x7fb6e145f000
+    Leaving function __mmap
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x7fb6e15bc000, 0x4d000, 0x1, 0x812, 0x3, 0x183000)  = 0x7fb6e15bc000
+    Leaving function __mmap
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x7fb6e1609000, 0x6000, 0x3, 0x812, 0x3, 0x1d0000)  = 0x7fb6e1609000
+    Leaving function __mmap
+    Entering function memset at 0x7fb6e1647950
+    Leaving function memset
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x7fb6e160f000, 0x7d30, 0x3, 0x32, 0xffffffff, 0x0)  = 0x7fb6e160f000
+    Leaving function __mmap
+    Entering function _dl_process_pt_gnu_property at 0x7fb6e162bf80
+    Leaving function _dl_process_pt_gnu_property
+    Entering function __GI___close_nocancel at 0x7fb6e1646980
+    Syscall close(0x3)  = 0x0
+    Leaving function __GI___close_nocancel
+    Entering function _dl_setup_hash at 0x7fb6e1636400
+    Leaving function _dl_setup_hash
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function _dl_assign_tls_modid at 0x7fb6e1637060
+    Leaving function _dl_assign_tls_modid
+    Entering function _dl_add_to_namespace_list at 0x7fb6e1630800
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    unknown call 0x4c90000281b125ff
+    Leaving function _dl_add_to_namespace_list
+    Entering function _dl_audit_objopen at 0x7fb6e163d080
+    Leaving function _dl_audit_objopen
+    Leaving function _dl_map_object_from_fd
+    Leaving function _dl_map_object
+    Leaving function func_0xffffffffe16278a0@./binaries/1
+    Leaving function __GI__dl_catch_exception
+    Entering function __libc_scratch_buffer_set_array_size at 0x7fb6e1646ba0
+    Leaving function __libc_scratch_buffer_set_array_size
+    Entering function _dl_dst_count at 0x7fb6e162b330
+    Entering function index at 0x7fb6e1648300
+    Leaving function index
+    Leaving function _dl_dst_count
+    Entering function __GI__dl_catch_exception at 0x7fb6e1626480
+    Entering function __sigsetjmp at 0x7fb6e1646e80
+    Leaving function __sigsetjmp
+    Entering function func_0xffffffffe16278a0@./binaries/1 at 0xffffffffe16278a0
+    Entering function _dl_map_object at 0x7fb6e162d910
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Leaving function _dl_map_object
+    Leaving function func_0xffffffffe16278a0@./binaries/1
+    Leaving function __GI__dl_catch_exception
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Entering function _dl_sort_maps at 0x7fb6e16365e0
+    Entering function dfs_traversal.part.0 at 0x7fb6e16364e0
+    Leaving function dfs_traversal.part.0
+    Entering function dfs_traversal.part.0 at 0x7fb6e16364e0
+    Leaving function dfs_traversal.part.0
+    Entering function dfs_traversal.part.0 at 0x7fb6e16364e0
+    Leaving function dfs_traversal.part.0
+    Entering function memmove at 0x7fb6e1647760
+    Leaving function memmove
+    Leaving function _dl_sort_maps
+    Leaving function _dl_map_object_deps
+    Entering function _dl_receive_error at 0x7fb6e16263e0
+    Entering function func_0xffffffffe16412f0@./binaries/1 at 0xffffffffe16412f0
+    Entering function _dl_check_all_versions at 0x7fb6e1638c20
+    Entering function _dl_check_map_versions at 0x7fb6e1638310
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Leaving function _dl_check_map_versions
+    Entering function _dl_check_map_versions at 0x7fb6e1638310
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Leaving function _dl_check_map_versions
+    Entering function _dl_check_map_versions at 0x7fb6e1638310
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function _dl_name_match_p at 0x7fb6e16305e0
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function _dl_name_match_p
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Entering function strncmp at 0x7fb6e1649cf0
+    Leaving function strncmp
+    Leaving function _dl_check_map_versions
+    Entering function _dl_check_map_versions at 0x7fb6e1638310
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Leaving function _dl_check_map_versions
+    Leaving function _dl_check_all_versions
+    Leaving function func_0xffffffffe16412f0@./binaries/1
+    Leaving function _dl_receive_error
+    Entering function init_tls at 0x7fb6e1641340
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Leaving function func_0@./binaries/1
+    Entering function _dl_tls_static_surplus_init at 0x7fb6e1636fc0
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Leaving function _dl_tls_static_surplus_init
+    Entering function _dl_determine_tlsoffset at 0x7fb6e16371f0
+    Leaving function _dl_determine_tlsoffset
+    Entering function _dl_allocate_tls_storage at 0x7fb6e16373e0
+    Entering function func_0@./binaries/1 at 0
+    Leaving function func_0@./binaries/1
+    Entering function allocate_dtv at 0x7fb6e1636cb0
+    Entering function func_0@./binaries/1 at 0
+    unknown call 0xf66000285ee25ff
+    Entering function __mmap at 0x7fb6e1646c60
+    Syscall mmap(0x0, 0x2000, 0x3, 0x22, 0xffffffff, 0x0)  = 0x7fb6e1437000
+    Leaving function __mmap
+    Leaving function func_0@./binaries/1
+    Leaving function allocate_dtv
+    Leaving function _dl_allocate_tls_storage
+    Syscall arch_prctl(0x1002, 0x7fb6e1618640)  = 0x0
+    Entering function __tls_init_tp at 0x7fb6e1637e30
+    Syscall set_tid_address(0x7fb6e1618910)  = 0x1c4
+    Syscall set_robust_list(0x7fb6e1618920, 0x18)  = 0x0
+    Entering function __GI___tunable_get_val at 0x7fb6e163a0c0
+    Leaving function __GI___tunable_get_val
+    Syscall rseq(0x7fb6e1618f60, 0x20, 0x0, 0x7fffffb03a0c)  = 0x0
+    Leaving function __tls_init_tp
+    Leaving function init_tls
+    Entering function _dl_cet_check at 0x7fb6e163cef0
+    Leaving function _dl_cet_check
+    Entering function _dl_relocate_object at 0x7fb6e1633960
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering function do_lookup_x at 0x7fb6e162e910
+    unknown call 0x5102f8c148a075ff
+    Entering function check_match at 0x7fb6e162e770
+    Entering function strcmp at 0x7fb6e1648530
+    Leaving function strcmp
+    Leaving function check_match
+    Leaving function do_lookup_x
+    Leaving function _dl_lookup_symbol_x
+    Entering function _dl_lookup_symbol_x at 0x7fb6e162f4b0
+    unknown call 0xff70858b4c8075ff
+    unknown call 0x5788558b481875ff
+    Entering '

@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+
+import xml.etree.ElementTree as ET
+import networkx as nx
+import matplotlib.pyplot as plt
+
+from sys import argv
+
+args : dict = {
+    'filename': 'graph.xml',
+    'filter': []
+}
+
+def correct_name(name: str):
+    if name.startswith("func_"):
+        tmp = name[name.rfind('@') + 1:]
+        filename = "? from " + tmp[tmp.rfind('/') + 1:]
+        return filename
+    return name
+
+
+def display_graph(G):
+    pos = nx.nx_agraph.to_agraph(G)
+    pos.edge_attr.update(color='blue', arrowsize=1.5)
+    pos.node_attr.update(color='blue')
+    pos.graph_attr.update(nodesep=0.8, ranksep=0.5)
+    pos.layout(prog='dot', args='-Grankdir=RL')
+    pos.draw('graph.png')
+
+def can_add_node(node : ET.Element):
+    if (args['filter'] == []):
+        return True
+    for filter in args['filter']:
+        if (filter in node.attrib['file'] != -1):
+            return True
+    return False
+
+def generate_normal_graph():
+    tree = ET.parse(args['filename'])
+    root = tree.getroot()
+    G = nx.Graph()
+
+    for node in root.findall('.//node'):
+        if can_add_node(node):
+            node_id = node.attrib['name']
+            G.add_node(node_id, label=correct_name(node_id))
+    for node in root.findall('./node'):
+        for child in node.findall('./child'):
+            source = node.attrib['name']
+            target = child.attrib['name']
+            if source in G and target in G:
+                G.add_edge(source, target)
+
+    display_graph(G)
+
+
+def main():
+    global args
+    args = annalyse_argv()
+    generate_normal_graph()
+
+def setup_args(expected_arg : str, attr_name : str, current_arg : str, i : int, length : int):
+    if (current_arg == expected_arg and i + 1 < length):
+        args[attr_name] = argv[i + 1]
+
+def annalyse_argv():
+    length = len(argv)
+    usage = "Usage: ./generate.py [-h] [-F <filename filter>] [-f <filename>]"
+    if (length == 2 and argv[1] == '-h'):
+        print(usage)
+        exit(0)
+    for (i, arg) in enumerate(argv):
+        if (arg == '-h'):
+            print(usage)
+            exit(0)
+        setup_args('-f', 'filename', arg, i, length)
+        if (arg == '-F' and i + 1 < length):
+            args['filter'].append(argv[i + 1])
+    print(args)
+    return args
+
+if __name__ == '__main__':
+    # try:
+    main()
+    # except :
+        # exit(84)
