@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2024
-** nmobjdump
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
-** elf64
+** ftrace
 */
 
 #include "elffile/elffile.h"

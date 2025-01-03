@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ptrace.h": "c",
+        "myelf_manager.h": "c"
+    }
+}

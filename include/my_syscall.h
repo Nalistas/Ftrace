@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2021
-** strace
+** ftrace
 ** File description:
 ** syscalls table
 */

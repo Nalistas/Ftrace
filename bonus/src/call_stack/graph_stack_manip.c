@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2024
+** PERSONNAL PROJECT 2024
 ** bonus
 ** File description:
 ** graph_stack_manip

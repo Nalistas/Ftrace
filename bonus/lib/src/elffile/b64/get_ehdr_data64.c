@@ -1,6 +1,6 @@
 /*
-** EPITECH PROJECT, 2024
-** nmobjdump
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
 ** get_ehdr_data64
 */

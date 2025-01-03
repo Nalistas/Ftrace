@@ -1,6 +1,6 @@
 /*
-** EPITECH PROJECT, 2024
-** strace
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
 ** launch_ftrace
 */

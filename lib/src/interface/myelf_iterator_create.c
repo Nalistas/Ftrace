@@ -1,6 +1,6 @@
 /*
-** EPITECH PROJECT, 2024
-** my_libelf2
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
 ** myelf_iterator_create
 */

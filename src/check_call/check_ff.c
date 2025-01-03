@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2024
+** PERSONNAL PROJECT 2024
 ** ftrace
 ** File description:
 ** check_ff

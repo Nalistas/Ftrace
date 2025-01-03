@@ -1,6 +1,6 @@
 /*
-** EPITECH PROJECT, 2024
-** strace
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
 ** sized_ptr_display
 */

@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2024
-** strace
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
-** strace
+** ftrace
 */
 
 #include <sys/user.h>

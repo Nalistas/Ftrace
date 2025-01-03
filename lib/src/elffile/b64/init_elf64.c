@@ -1,6 +1,6 @@
 /*
-** EPITECH PROJECT, 2024
-** nmobjdump
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
 ** init_struct_64
 */

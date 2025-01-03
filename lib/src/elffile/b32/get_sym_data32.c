@@ -1,6 +1,6 @@
 /*
-** EPITECH PROJECT, 2024
-** my_libelf2
+** PERSONNAL PROJECT 2024
+** ftrace
 ** File description:
 ** get_sym_data32
 */
